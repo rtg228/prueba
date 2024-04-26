@@ -1,0 +1,91 @@
+/* Hacer que todos los textos estén en mayúsculas */
+* {
+    padding: 0;
+}
+
+/* Estilos para la sección de la logo */
+.logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.logo img {
+    max-width: 100%; /* Ajustar la imagen al ancho del contenedor */
+}
+
+.logo h3 {
+    color: white;
+    background-color: midnightblue;
+    padding: 10px;
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilos para el formulario */
+.formulario {
+    font-family: sans-serif;
+    display: grid;
+    justify-content: center;
+    border-top: solid 0.01px #bbbbbbbb;
+    padding-top: 30px;
+}
+
+.formulario input {
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    background-color: #bbbbbbbb;
+    border: none;
+    font-size: 18px;
+    width: 100%; /* Ocupar todo el ancho disponible */
+    box-sizing: border-box; /* Incluir el padding en el ancho */
+}
+
+.formulario input::placeholder {
+    color: white;
+    font-size: 15px;
+}
+
+.formulario label {
+    margin-bottom: 5px;
+}
+
+.formulario button {
+    margin: 0 auto 20px auto; /* Centrar el botón */
+    padding: 10px 20px; /* Ajustar el padding horizontal */
+    outline: none;
+    text-decoration: none;
+    color: white;
+    background-color: midnightblue;
+    display: block; /* Convertir el botón en un bloque para centrarlo */
+}
+
+.formulario button:hover {
+    cursor: pointer;
+}
+
+/* Estilos para los párrafos dentro de la sección de la container */
+.container p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: lowercase;
+}
+
+.container p label {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+/* Estilos para el pie de página */
+.futer p {
+    font-size: 15px;
+    color: white;
+    background-color: midnightblue;
+    text-align: center;
+    padding: 10px;
+}
